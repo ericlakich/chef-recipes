@@ -1,0 +1,11 @@
+{
+  "name": "roleA",
+  "run_list": [
+    "mysql_db",
+    "vim",
+    "php"
+  ],
+  "mysql_db": {
+    "db_name": "roleA_production"
+  }
+}
